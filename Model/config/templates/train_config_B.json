@@ -1,0 +1,28 @@
+{
+    "num_epochs": 60,
+    "batch_size": 128,
+    "lr": 0.0002,
+    "weight_decay": 0.1,
+    "common": {
+        "latent_dim": 128,
+        "negative_slope": 0.01
+    },
+    "generator": {
+        "mpnn":{
+            "hidden_layers":[256, 512, 256],
+            "heads":4
+        },
+        "sampler":{
+            "hidden_layers":[256, 512, 256]
+        }
+    },
+    "discriminator": {
+        "mpnn":{
+            "hidden_layers":[1024, 512, 256],
+            "heads":4
+        },
+        "linear":{
+            "hidden_layers":[256, 128, 64]
+        }
+    }
+}
