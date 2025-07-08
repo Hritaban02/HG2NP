@@ -1,6 +1,8 @@
 # Heterogeneous Graph Generation: A Hierarchical Approach using Node Feature Pooling
 
-Implementation of the paper accepted in IJCNN 2025
+## Implementation of the paper accepted in IJCNN 2025
+
+---------------------------------------------------------
 
 DiGress - Used to create skeleton homogeneous graphs.
 
