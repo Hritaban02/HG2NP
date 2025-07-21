@@ -1,10 +1,10 @@
-# Heterogeneous Graph Generation: A Hierarchical Approach using Node Feature Pooling
+# Heterogeneous Graph Generation: A Hierarchical Approach using Node Feature Pooling (IJCNN 2025)
 
-## Implementation of the paper accepted in IJCNN 2025
+This repo is the official implementation of ["Heterogeneous Graph Generation: A Hierarchical Approach using Node Feature Pooling"](https://arxiv.org/abs/2410.11972). HG2NP is a heterogeneous graph generation model. The training paradigm is set up as a Generative Adversarial Network (GAN).
+
+---
 
 Model - Refers to HG2NP (Our) Implementation
-
---------------------------------------
 
 DiGress - Used to create skeleton homogeneous graphs.
 
